@@ -26,8 +26,12 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ol,
+ul,
+li {
 	list-style: none;
+	padding-left: 0;
+    margin-left: 0;
 }
 blockquote, q {
 	quotes: none;
@@ -42,10 +46,25 @@ table {
 	border-spacing: 0;
 }
 a {
+	color: inherit;
     text-decoration: none;
 }
 button,
 textarea,
 input {
-    font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	border: none;
 }
+button:active,
+button:focus,
+input:active,
+input:focus,
+textarea:active,
+textarea:focus{
+	outline: none;
+    box-shadow: none;
+}
+
+
+
+
