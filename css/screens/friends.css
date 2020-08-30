@@ -1,0 +1,15 @@
+/* friends.css */
+#friends-display-link{
+    display: block;
+    text-align: center;
+    font-size:17px;
+    background-color: #FAFAFA;
+    padding: 15px 0;
+    color: #525252;
+}
+#friends-display-link i{
+    color: rgba(0, 0, 0, 0.3);
+}
+#friends-display-link .fa-chevron-right{
+    margin-left: 8px;
+}
