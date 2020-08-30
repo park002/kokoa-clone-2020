@@ -1,0 +1,42 @@
+/* nav CSS */
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid rgba(87, 85, 85, 0.2);
+    background-color:#F9F9FA;
+    padding: 19px 50px;
+}
+.nav__ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__link{
+    position: relative;
+    color:#2F363E;
+}
+.nav__notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    bottom: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: var(--red);
+    border-radius: 10px;
+}
+.nav__notifications{
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: var(--red);
+    top: -12px;
+    right: -5px;
+}
+

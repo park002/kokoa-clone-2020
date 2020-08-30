@@ -1,9 +1,11 @@
 /* index.html - status-bar CSS */
 .status-bar {
+    position: fixed;
+    top:0;
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 5px 3px;
-    margin-bottom: 80px;
 }
 .status-bar__column {
     width: 33%;

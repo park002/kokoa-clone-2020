@@ -1,66 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 @import "./reset.css";
-@import "./status-bar.css";
 @import "./variables.css";
+
+/* Components */
+@import "./components/status-bar.css";
+@import "./components/nav-bar.css";
+
+/* Screens */
+@import "./screens/login.css";
+
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* welcome-header  CSS */
-.welcome-header {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 65px;
-}
-.welcome-header__title {
-    font-weight: 600;
-    font-size:25px;
-    margin-bottom: 25px;
-}
-.welcome-header__desc {
-    font-weight: 400;
-    color: #A9A9A9;
-}
 
-/* login-form CSS */
-.login-form{
-    padding:0 41px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.login-form__input {
-    position: relative;
-    font-size:16px;
-    padding: 15px 0;
-    margin-bottom : 25px;
-    border-bottom:1px solid rgba(0,0,0,0.4);
-    transition: border-color 250ms ease-in-out;
-}
-.login-form__input:focus{
-    border-color: var(--yellow);
-}
-
-.login-form__input::placeholder {
-    color:rgba(0,0,0,0.5);
-}
-.login-form__input[type="password"]{
-    margin-bottom:35px;
-}
-.login-form__btn--yellow {
-     margin-bottom: 25px;
-     cursor: pointer;
-     background-color: var(--yellow);
-     padding: 15px 0;
-     font-weight: 600;
-     border-radius: 5px;
-}
-.login-form__a {
-    font-size:13px;
-}
 
 
 

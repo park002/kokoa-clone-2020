@@ -16,12 +16,12 @@
             </span>
             <i class="fas fa-wifi"></i>
         </div>
-        <div class="status-bar__column">
+        <div class="status-bar__column" aria-label="current time">
             <span>
-                18:43
+                21:23
             </span>
         </div>
-        <div class="status-bar__column">
+        <div class="status-bar__column" aria-label="battery">
             <span>
                 110%
             </span>
@@ -40,10 +40,10 @@
         </p>
     </header>
 
-    <form action="#" method="POST" class="login-form" >
-        <input type="text" placeholder="Email or phone number" class="login-form__input"/>
-        <input type="password"placeholder="Password" class="login-form__input"/>
-        <input type="submit" value="Log In" class="login-form__btn--yellow"/>
+    <form action="./friends.html" method="GET" class="login-form">
+        <input name="username" type="text" placeholder="Email or phone number" class="login-form__input" aria-label="email or phone number"/>
+        <input name="password" type="password"placeholder="Password" class="login-form__input" aria-label="password"/>
+        <input type="submit" value="Log In" class="login-form__btn--yellow" aria-label="log in"/>
         <a href="#" class="login-form__a">Find Kokoa Account or Password</a>
     </form>
 
