@@ -54,11 +54,11 @@
     </a>
 
     <main class="friends-screen">
-        <section class="user-component">
+        <article class="user-component">
             <div class="user-component__column">
                 <img src="./img/me.jpg" class="user-component__avatar user-component__avatar--xl" alt="user photo" />
                 <div class="user-component__text">
-                    <h2 class="user-component__title">
+                    <h2 class="user-component__title" aria-label="user name">
                         Parkjaeho
                     </h2>
                     <!-- <p class="user-component__desc">
@@ -66,10 +66,31 @@
                 </p> -->
                 </div>
             </div>
-
             <div class="user-component__column">
                 <!--To Do: Icon -->
             </div>
+        </article>
+        <section class="friends-screen__channel">
+            <header class="friends-screen__channel-header">
+                <h1 class="friends-screen__channel-title" aria-label="menu bar">
+                    Channel
+                </h1>
+                <i class="fas fa-chevron-up fa-xs" aria-label="open and close channel menu bar"></i>
+            </header>
+            <article class="user-component">
+                <div class="user-component__column">
+                    <img src="./img/cafe.jpg" class="user-component__avatar user-component__avatar--sm" alt="channel photo" />
+                    <div class="user-component__text">
+                        <h2 class="user-component__title user-component__title--not-bold" aria-label="channel title">
+                            Channel
+                        </h2>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <sapn class="user-component__notification" aria-label="two new channels">2</sapn>
+                    <i class="fas fa-chevron-right fa-xs" aria-label="unread channel"></i>
+                </div>
+            </article>
         </section>
     </main>
 

@@ -17,3 +17,21 @@
 .friends-screen{
     padding: 0 var(--horizontal-space);
 }
+.friends-screen__channel{
+    margin-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+}
+.friends-screen__channel-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.friends-screen__channel-title,
+.friends-screen__channel-title +.fa-chevron-up{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
