@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="./css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Friends - to Kokoa Talk</title>
 </head>
+
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
@@ -44,12 +46,32 @@
             </a>
         </div>
     </header>
-    
+
     <a id="friends-display-link" href="#">
         <i class="fas fa-info-circle"></i>
         Friends' Names Display
-        <i class="fas fa-chevron-right fa-xs"></i> 
+        <i class="fas fa-chevron-right fa-xs"></i>
     </a>
+
+    <main class="friends-screen">
+        <section class="user-component">
+            <div class="user-component__column">
+                <img src="./img/me.jpg" class="user-component__avatar user-component__avatar--xl" alt="user photo" />
+                <div class="user-component__text">
+                    <h2 class="user-component__title">
+                        Parkjaeho
+                    </h2>
+                    <!-- <p class="user-component__desc">
+                    Please check My Kokoa Account Info
+                </p> -->
+                </div>
+            </div>
+
+            <div class="user-component__column">
+                <!--To Do: Icon -->
+            </div>
+        </section>
+    </main>
 
     <nav class="nav">
         <ul class="nav__ul" aria-label="menu bar">
@@ -85,4 +107,5 @@
     <script src="https://kit.fontawesome.com/425d9cd4a2.js" crossorigin="anonymous">
     </script>
 </body>
+
 </html>
