@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends - to Kokoa Talk</title>
+    <title>Chats - to Kokoa Talk</title>
 </head>
 
 <body>
@@ -32,11 +32,14 @@
 
     <header class="screen-header">
         <h1 class="screen-header__title">
-            Friends
+            Chats
         </h1>
         <div class="screen-header__icons">
             <a href="#" class="screen-header__icon" aria-label="search">
                 <i class="fas fa-search fa-lg"></i>
+            </a>
+            <a href="#" class="screen-header__icon" aria-label="open chat">
+                <i class="far fa-comment-dots fa-lg"></i>
             </a>
             <a href="#" class="screen-header__icon" aria-label="music">
                 <i class="fas fa-music fa-lg"></i>
@@ -47,75 +50,46 @@
         </div>
     </header>
 
-    <a id="friends-display-link" href="#">
-        <i class="fas fa-info-circle"></i>
-        Friends' Names Display
-        <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
+    <main class="main-screen">
         <article class="user-component">
             <div class="user-component__column">
-                <img src="./img/me.jpg" class="user-component__avatar user-component__avatar--xl" alt="user photo" />
+                <img src="./img/me.jpg" class="user-component__avatar" alt="user photo" />
                 <div class="user-component__text">
                     <h2 class="user-component__title" aria-label="user name">
-                        Parkjaeho
+                        KokoaTalk
                     </h2>
-                    <!-- <p class="user-component__desc">
-                    Please check My Kokoa Account Info
-                </p> -->
+                    <p class="user-component__desc">
+                        Please check My Kokoa Account Info
+                    </p>
                 </div>
             </div>
             <div class="user-component__column">
-                <!--To Do: Icon -->
+                <span class="user-component__time">
+                    21:22
+                </span>
+                <span class="badge" aria-label="1 unread notification">
+                    1
+                </span>
             </div>
         </article>
-        <section class="friends-screen__channel">
-            <header class="friends-screen__channel-header">
-                <h1 class="friends-screen__channel-title" aria-label="menu bar">
-                    Channel
-                </h1>
-                <i class="fas fa-chevron-up fa-xs" aria-label="open and close channel menu bar"></i>
-            </header>
-            <article class="user-component">
-                <div class="user-component__column">
-                    <img src="./img/cafe.jpg" class="user-component__avatar user-component__avatar--sm"
-                        alt="channel photo" />
-                    <div class="user-component__text">
-                        <h2 class="user-component__title user-component__title--not-bold" aria-label="channel title">
-                            Channel
-                        </h2>
-                    </div>
-                </div>
-                <div class="user-component__column">
-                    <div>
-                        <sapn class="user-component__notification" aria-label="two new channels">
-                            2
-                        </sapn>
-                        <i class="fas fa-chevron-right fa-xs" aria-label="unread channel"></i>
-                    </div>
-                </div>
-            </article>
-        </section>
     </main>
 
     <nav class="nav">
         <ul class="nav__ul" aria-label="menu bar">
             <li class="nav__btn" aria-label="friends">
                 <a class="nav__link" href="./friends.html">
-                    <i class="fas fa-user fa-2x"></i>
+                    <i class="far fa-user fa-2x"></i>
                 </a>
             </li>
 
-            <li class="nav__btn" aria-label="chat list">
+            <li class="nav__btn" aria-label="chats list">
                 <a class="nav__link" href="./chats.html">
                     <span class="nav__notification badge" aria-label="1 unread notification">
                         1
                     </span>
-                    <i class="far fa-comment fa-2x"></i>
+                    <i class="fas fa-comment fa-2x"></i>
                 </a>
             </li>
-
             <li class="nav__btn" aria-label="search">
                 <a class="nav__link" href="./find.html">
                     <i class="fas fa-search fa-2x"></i>
@@ -130,6 +104,7 @@
             </li>
         </ul>
     </nav>
+
     <script src="https://kit.fontawesome.com/425d9cd4a2.js" crossorigin="anonymous">
     </script>
 </body>

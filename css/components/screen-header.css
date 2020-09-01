@@ -4,12 +4,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 25px;
-    margin-bottom: 21px;
+    margin-bottom: 26px;
 }
 .screen-header__title {
     font-weight: 600;
     font-size:35px;
 }
-.screen-header__icon:not(:first-child) {
+.screen-header__icon{
     margin-left: 25px;
 }

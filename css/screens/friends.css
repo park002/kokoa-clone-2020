@@ -7,6 +7,7 @@
     padding: 15px 0;
     color: #525252;
     margin-bottom: 9px;
+    margin-top: -15px;
 }
 #friends-display-link i{
     color: rgba(0, 0, 0, 0.3);

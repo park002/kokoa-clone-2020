@@ -17,18 +17,9 @@
     color:#2F363E;
 }
 .nav__notification{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
-    width: 20px;
-    height: 20px;
     left: 20px;
     bottom: 18px;
-    font-weight: 600;
-    color: white;
-    background-color: var(--red);
-    border-radius: 10px;
 }
 .nav__notifications{
     position: absolute;
