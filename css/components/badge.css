@@ -9,3 +9,9 @@
     background-color: var(--red);
     border-radius: 10px;
 }
+.red-badge{
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: var(--red);
+}

@@ -11,5 +11,6 @@
     font-size:35px;
 }
 .screen-header__icon{
+    position: relative;
     margin-left: 25px;
 }

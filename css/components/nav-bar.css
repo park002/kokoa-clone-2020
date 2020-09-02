@@ -23,10 +23,6 @@
 }
 .nav__notifications{
     position: absolute;
-    width: 6px;
-    height: 6px;
-    border-radius: 3px;
-    background-color: var(--red);
     top: -12px;
     right: -5px;
 }

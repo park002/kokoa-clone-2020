@@ -3,4 +3,7 @@
     --yellow:#fae100;
     --red:#FF6229;
     --horizontal-space:25px;
+    --border-line:1px solid rgba(0,0,0,0.1);
+    --gray:rgba(0, 0, 0, 0.5);
+    
 }

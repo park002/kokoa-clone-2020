@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="./css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find - to Kokoa Talk</title>
 </head>
-<body>
 
-    
+<body>
     <div class="status-bar">
         <div class="status-bar__column">
             <span>
@@ -40,11 +40,110 @@
                 <i class="fas fa-search fa-lg"></i>
             </a>
             <a href="#" class="screen-header__icon" aria-label="configuration settings">
+                <span class="red-badge find-header__icon" aria-label="new notifications"></span>
                 <i class="fas fa-cog fa-lg"></i>
             </a>
         </div>
     </header>
 
+    <main class="main-screen">
+        <section class="finds-icons">
+            <div class="finds-icons__icon">
+                <i class="fas fa-qrcode"></i>
+                <span>
+                    QR Code
+                </span>
+            </div>
+            <div class="finds-icons__icon">
+                <i class="far fa-address-book"></i>
+                <span>Add by</span>
+                <span>Contacts</span>
+            </div>
+            <div class="finds-icons__icon">
+                <i class="fas fa-fingerprint"></i>
+                <span>
+                    Add by ID
+                </span>
+            </div>
+            <div class="finds-icons__icon">
+                <i class="far fa-envelope"></i>
+                <span>
+                    Invite
+                </span>
+            </div>
+        </section>
+
+        <section class="recommended-friends">
+            <h3 class="recommended-friends__title">
+                Recommended Friends
+            </h3>
+            <p class="recommended-friends__desc">
+                You have no recommended friends.
+            </p>
+        </section>
+
+        <article class="open-chat">
+            <header class="open-chat__header">
+                <h3 class="open-chat__title">
+                    Open Chat
+                </h3>
+                <a href="#" class="open-chat__link">
+                    <span>Go to Openchat Home</span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </a>
+            </header>
+            <section class="open-post">
+                <div class="open-post__column">
+                    <a href="#" class="open-post__link">
+                        <h4 class="open-post__title" aria-label="post title">
+                            #BTS
+                        </h4>
+                        <p class="open-post__hashtags-1" aria-label="title hashtags">
+                            #bts#army#friends
+                        </p>
+                    </a>
+                    <div class="open-post__members">
+                        <a href="#" class="open-post__members-link">
+                            <img src="./img/me.jpg" alt="user profile" class="open-post__members-img" />
+                            <span class="open-post__members-count" aria-label="user members count">802 members</span>
+                            <span class="open-post__members-status" aria-label="members status">Active</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="open-post__column">
+                    <img src="./img/me.jpg" alt="open chat image" class="open-post__img" />
+                    <span class="open-post__heart" aria-label="like counts">326</span>
+                </div>
+            </section>
+
+            <section class="open-post">
+                <div class="open-post__column">
+                    <a href="#" class="open-post__link">
+                        <h4 class="open-post__title" aria-label="post title">
+                            #BTS Gang~
+                        </h4>
+                        <p class="open-post__hashtags-2" aria-label="title hashtags">
+                            #englishonly #ipurpleyou #jimin #taeta..
+                        </p>
+                    </a>
+                    <div class="open-post__members">
+                        <a href="#" class="open-post__members-link">
+                            <img src="./img/cafe.jpg" alt="user profile" class="open-post__members-img" />
+                            <span class="open-post__members-count" aria-label="user members count">299 members</span>
+                            <span class="open-post__members-status" aria-label="members status">Active</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="open-post__column">
+                    <img src="./img/cafe.jpg" alt="open chat image" class="open-post__img" />
+                    <span class="open-post__heart" aria-label="like counts">215</span>
+                </div>
+            </section>
+        </article>
+
+    </main>
 
     <nav class="nav">
         <ul class="nav__ul" aria-label="menu bar">
@@ -65,7 +164,7 @@
             </li>
             <li class="nav__btn" aria-label="to see more details">
                 <a class="nav__link" href="#">
-                    <span class="nav__notifications" aria-label="new notifications">
+                    <span class="nav__notifications red-badge" aria-label="new notifications">
                     </span>
                     <i class="fas fa-ellipsis-h fa-2x"></i>
                 </a>
