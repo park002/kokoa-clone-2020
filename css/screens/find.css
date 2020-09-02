@@ -1,9 +1,5 @@
 /* Find.css */
-.find-header__icon{
-    position:absolute;
-    top: -8px;
-    right: -5px;
-}
+
 .finds-icons{
     display: flex;
     justify-content: space-between;
