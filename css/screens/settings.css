@@ -1,0 +1,43 @@
+/* Settings CSS */
+.settings-section{
+    padding: 10px 0;
+}
+.settings-section:not(:last-child){
+    border-bottom:var(--border-line);
+}
+.settings-section__info{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin-bottom: 15px;
+}
+.settings-section__info:not(:nth-child(3)){
+    border-bottom:1px solid rgba(235, 214, 214, 0.3);
+}
+.settings-section__info:nth-child(3){
+    margin-bottom: 10px;
+}
+.settings-section:last-child .settings-section__info:nth-child(3){
+    border-bottom:1px solid rgba(235, 214, 214, 0.3);
+}
+.settings-section__info-link{
+    display: flex;
+    align-items: center;
+}
+.settings-section__info-link i+span{
+    display: block;
+    margin-left: 17px;
+}
+.settings__section-right{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--gray);
+}
+.settings-section__display{
+    margin-right: 5px;
+}
+.settings-section__themes{
+    margin-right: 5px;
+}
+

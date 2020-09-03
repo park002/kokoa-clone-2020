@@ -9,6 +9,11 @@
     background-color: var(--red);
     border-radius: 10px;
 }
+.badge--lg{
+    font-size: 10px;
+    width: 17px;
+    height: 17px;
+}
 .red-badge{
     width: 6px;
     height: 6px;
