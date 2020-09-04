@@ -8,7 +8,7 @@
     <title>Chats - to Kokoa Talk</title>
 </head>
 
-<body>
+<body id="chats-body">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>
@@ -51,27 +51,29 @@
     </header>
 
     <main class="main-screen">
-        <article class="user-component">
-            <div class="user-component__column">
-                <img src="./img/me.jpg" class="user-component__avatar" alt="user photo" />
-                <div class="user-component__text">
-                    <h2 class="user-component__title" aria-label="user name">
-                        KokoaTalk
-                    </h2>
-                    <p class="user-component__desc">
-                        Please check My Kokoa Account Info
-                    </p>
+        <a href="./chat.html">
+            <article class="user-component">
+                <div class="user-component__column">
+                    <img src="./img/me.jpg" class="user-component__avatar" alt="user photo" />
+                    <div class="user-component__text">
+                        <h2 class="user-component__title" aria-label="user name">
+                            KokoaTalk
+                        </h2>
+                        <p class="user-component__desc">
+                            Please check My Kokoa Account Info
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time">
-                    21:22
-                </span>
-                <span class="badge" aria-label="1 unread notification">
-                    1
-                </span>
-            </div>
-        </article>
+                <div class="user-component__column">
+                    <span class="user-component__time">
+                        21:22
+                    </span>
+                    <span class="badge" aria-label="1 unread notification">
+                        1
+                    </span>
+                </div>
+            </article>
+        </a>
     </main>
 
     <nav class="nav">

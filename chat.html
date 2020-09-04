@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - to Kokoa Talk</title>
+</head>
+
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>
+                No Service
+            </span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column" aria-label="current time">
+            <span>
+                21:30
+            </span>
+        </div>
+        <div class="status-bar__column" aria-label="battery">
+            <span>
+                110%
+            </span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="./chats.html">
+                <i class="fas fa-chevron-left fa-lg"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">
+                박재호
+            </h1>
+        </div>
+        <div class="alt-header__column">
+            <a href="#">
+                <i class="fas fa-search fa-lg"></i>
+            </a>
+            <span class="alt-header__menu-bar"><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <header class="chat-timestamp">
+            Tuesday, June 30, 2020
+        </header>
+        <section class="message-row">
+            <img src="./img/me.jpg" />
+            <div class="message-row__profile">
+                <span class="message-row__user-name">
+                    박재호
+                </span>
+                <div class="message-row__info">
+                    <span class="message-row__bubble">Hi guys!</span>
+                    <span class="message-row__time">21:25</span>
+                </div>
+            </div>
+        </section>
+        <section class="message-row message-row--own">
+            <div class="message-row__info message-row__info--own">
+                <span class="message-row__bubble message-row__bubble--own">Hi!</span>
+                <span class="message-row__time message-row__time--own">21:25</span>
+            </div>
+        </section>
+    </main>
+    <form action="#" method="GET" class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message" name="text" class="reply__column-input" />
+            <i class="far fa-grin fa-lg"></i>
+            <button type="submit">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+    <script src="https://kit.fontawesome.com/425d9cd4a2.js" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
