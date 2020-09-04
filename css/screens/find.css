@@ -122,9 +122,33 @@
    
 }
 .open-post__heart::before{
+    display: inline-block;
     content: '\f004';
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size:11px;
     margin-right: 3px;
+    transition: font-size 0.2s ease-in-out;
 }
+@keyframes heartBeat{
+    0%{
+        color: #ffffff;
+        transform: none;
+    }
+    50%{
+        color: var(--red);
+        transform: scale(2);
+       
+    }
+    100%{
+        color: #ffffff;
+        transform: none;
+    }
+}
+.open-post__heart:hover::before{
+    animation: heartBeat 0.7s linear infinite;
+}
+
+/* .open-post__heart:hover::before{
+    font-size: 15px;
+} */
